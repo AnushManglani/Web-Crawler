@@ -19,7 +19,7 @@ Spider(PROJECT_NAME, HOMEPAGE, DOMAIN_NAME)
 def crawl():
     queued_links = file_to_set(QUEUE_FILE)
     if len(queued_links) > 0:
-        print('The items lest in queue are ' + str(len(queued_links)))
+        print('The items left in queue are ' + str(len(queued_links)))
         create_jobs()
 
 
